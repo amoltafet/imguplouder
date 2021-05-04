@@ -1,3 +1,4 @@
+const PORT = process.env.PORT || 3000;
 const express = require('express')
 const app = express();
 
@@ -24,6 +25,6 @@ app.engine('hbs', hbs({
 // calling routes
 app.use('/', require('./server/router/router'));
 
-app.listen(3000, () => console.log(`Server is stated on http://localhost:3000`));
+app.listen(PORT, () => console.log(`Server is stated on http://localhost:3000`));
 
     
