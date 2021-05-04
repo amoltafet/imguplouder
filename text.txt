@@ -1,0 +1,2 @@
+ mongo backend databes and express backend,, uploud a poic. photo organizer. REST service node express. home page shows 10 pics home page. 2 things in a form ask user for photo ask for adescrpition. upload button. modify. edi, delete. 
+         top of screen icon add a new picture...localhost or horuko.
